@@ -14,14 +14,14 @@ We are recruiting!
 ## Undergraduate
 -----
 
+We welcome undergrads from every department. If you are just curious about our research (even if you don't know anything about atomistic simulations or materials), do not hesitate to reach out!
+
 We have opportunities in the research area of computational materials science which include but not limited to:
 1. Atomistic modeling and simulation of defects in materials
 2. Applications of data science, statistics or ML in materials research
-3. Computater-aieded alloy design framework
+3. Computater-aided alloy design framework
 
-We welcome undergrads from every department! Please send your CV to Nutth.tuchinda@njit.edu and briefly describe your interests.
-
-Or even if you are just curious about our research, please do not hesitate to reach out to us!
+Please send your CV to Nutth.tuchinda@njit.edu and briefly describe your interests.
 
 ## Graduate
 -----
