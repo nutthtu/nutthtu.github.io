@@ -8,7 +8,7 @@ date: 2025-02-25
 modified: 2025-02-25
 image:
     feature: false
-    twitter: CubicHermiteSpline/twitter.png
+    twitter: 
 categories: [Software, Tutorial]
 tags: [Python, TripleJunction, Algorithms]
 show_meta:
