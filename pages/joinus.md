@@ -1,0 +1,37 @@
+---
+permalink: /opening/
+layout: page
+title: Join Us!
+description: 
+comments: false
+breadcrumbs: true
+---
+
+
+We are recruiting!
+
+
+## Undergraduate
+-----
+
+We have opportunities in the research area of computational materials science which include but not limited to:
+1. Atomistic modeling and simulation of defects in materials
+2. Applications of data science, statistics or ML in materials research
+3. Computater-aieded alloy design framework
+
+We welcome undergrads from every department! Please send your CV to Nutth.tuchinda@njit.edu and briefly describe your interests.
+
+Or even if you are just curious about our research, please do not hesitate to reach out to us!
+
+## Graduate
+-----
+
+We currently have two available positions in the area of defects in materials. If you are interested, please apply through [NJIT portal](https://connect.njit.edu/apply/) and send your CV to nutth.tuchinda@njit.edu.
+
+General details on the PhD program can be found 
+[here](https://catalog.njit.edu/graduate/newark-college-engineering/chemical-materials-engineering/materials-science-engineering-phd/)
+
+## Postdoc
+-----
+
+We welcome externally funded postdoc through fellowship and scholarship. Please reach out to us via nutth.tuchinda@njit.edu.

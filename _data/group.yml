@@ -1,0 +1,25 @@
+principle_investigator:
+  - name: "Nutth Tuchinda"
+    image: "images/nutth.jpg"
+    bio: "Nutth is an incoming assistant professor in the CME department at NJIT."
+    bio_link: "/about/"
+
+graduate_students:
+  - name: "Could be you!"
+    image: "images/logo-tri.jpg"
+    period: "-"
+    description: "-"
+  
+undergraduate_students:
+
+  - name: "Could be you!"
+    image: "images/logo-tri.jpg"
+    period: "-"
+    description: "-"
+
+alumni:
+
+  - name: "Could be you!"
+    image: "images/logo-tri.jpg"
+    period: "-"
+    description: "-"

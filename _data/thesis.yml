@@ -1,0 +1,16 @@
+- id: nt
+  title: 'Polycrystalline Grain Boundary Solute Segregation at Finite Sizes and Temperatures'
+  year: 2023
+  advisor:
+  - given: Christopher A.
+    given_initial: C.A.
+    family: Schuh
+    role: Supervisor
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: main
+  publisher: Massachustts Institute of Technology
+  city: 'Cambridge, MA, USA'
+  source: Doctoral Disertation

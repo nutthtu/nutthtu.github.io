@@ -1,0 +1,26 @@
+# Menu navigation links
+
+- title:    Home
+  url:      /
+
+
+- title:    Join Us!
+  url:      /opening/
+
+- title:    Group
+  url:      /group/
+
+- title:    Research
+  url:      /research/
+
+- title:    Publications
+  url:      /publications/
+
+- title:    Teaching
+  url:      /teaching/
+
+- title:    Software
+  url:      /software/
+
+- title:    About
+  url:      /about/
