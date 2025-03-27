@@ -1,4 +1,144 @@
-# Yi-Xin Liu's Publications - Journal articles
+- title: 'The Augmented Potential Method: Multiscale Modeling Toward a Spectral Defect Genome'
+  volume: 
+  issue: 
+  page: 
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+  - given: Changle
+    given_initial: C.
+    family: Li
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+    role: 'main corr'
+  journal:
+    fullname: Arxiv
+    abbreviation: Arxiv
+  URL:  https://doi.org/10.48550/arXiv.2502.08014
+  type: article
+  DOI: 10.48550/arXiv.2502.08014
+  language: english
+
+- title: 'Grain Boundary Segregation Spectra from a Generalized Machine-learning Potential'
+  volume: 
+  issue: 
+  page: 
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+    role: 'main corr'
+  journal:
+    fullname: Arxiv
+    abbreviation: Arxiv
+  URL:  https://doi.org/10.48550/arXiv.2502.08017
+  type: article
+  DOI: 10.48550/arXiv.2502.08017
+  language: english
+
+- title: 'A Grain Boundary Embrittlement Genome for Substitutional Cubic Alloys'
+  volume: 
+  issue: 
+  page: 
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: 'main corr'
+  - given: Gregory B.
+    given_initial: G. B.
+    family: Olson
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+  journal:
+    fullname: Arxiv
+    abbreviation: Arxiv
+  URL:  https://doi.org/10.48550/arXiv.2502.06531
+  type: article
+  DOI: 10.48550/arXiv.2502.06531
+  language: english
+
+- title: 'Grain Boundary Segregation and Embrittlement of Aluminum Binary Alloys from First Principles'
+  volume: 
+  issue: 
+  page: 
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: 'main corr'
+  - given: Gregory B.
+    given_initial: G. B.
+    family: Olson
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+  journal:
+    fullname: Arxiv
+    abbreviation: Arxiv
+  URL:  https://doi.org/10.48550/arXiv.2502.01579
+  type: article
+  DOI: 10.48550/arXiv.2502.01579
+  language: english
+
+- title: 'Grain Boundary Segregation and Embrittlement of Aluminum Binary Alloys from First Principles'
+  volume: 
+  issue: 
+  page: 
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: 'main corr'
+  - given: Gregory B.
+    given_initial: G. B.
+    family: Olson
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+  journal:
+    fullname: Arxiv
+    abbreviation: Arxiv
+  URL:  https://doi.org/10.48550/arXiv.2411.18537
+  type: article
+  DOI: 10.48550/arXiv.2411.18537
+  language: english
+
+
+- title: 'Interstitial Solute Segregation at Triple Junctions: Implications for the Hydrogen Storage Properties of Nanomaterials'
+  volume: 
+  issue: 
+  page: 
+  year: 2024
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+  - given: Malik
+    given_initial: 
+    family: Wagih
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+    role: 'main corr'
+  journal:
+    fullname: Arxiv
+    abbreviation: Arxiv
+  URL:  https://doi.org/10.48550/arXiv.2411.18537
+  type: article
+  DOI: 10.48550/arXiv.2411.18537
+  language: english
 
 - title: 'Triple junction excess energy in polycrystalline metals'
   volume: 279
@@ -132,45 +272,12 @@
   page: 117614
   year: 2022
   author:
-  - given: Atchara
-    given_initial: A.
-    family: Khamkongkaeo
-  - given: Thanachai
-    given_initial: T.
-    family: Boonchuduang
-  - given: Wantana
-    given_initial: W.
-    family: Klysubun
-  - given: Penphitcha
-    given_initial: P.
-    family: Amonpattaratkit
-  - given: H-thaichnok
-    given_initial: H.
-    family: Chunate
   - given: Nutth
     given_initial: N.
     family: Tuchinda
-  - given: Adulphan
-    given_initial: A.
-    family: Pimsawat
-  - given: Sujittra
-    given_initial: S.
-    family: Daengsakul
-  - given: Pitphichaya
-    given_initial: P.
-    family: Suksangrat
-  - given: Wutthigrai
-    given_initial: W.
-    family: Sailuam
-  - given: Drusawin
-    given_initial: D.
-    family: Vongpramate
-  - given: Atipong
-    given_initial: A.
-    family: Bootchanont
-  - given: Boonrat
-    given_initial: B.
-    family: Lohwongwatana
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
     role: 'main corr'
   journal:
     fullname: Acta Materialia
@@ -231,12 +338,45 @@
   page: "1356-1362"
   year: 2019
   author:
+  - given: Atchara
+    given_initial: A.
+    family: Khamkongkaeo
+  - given: Thanachai
+    given_initial: T.
+    family: Boonchuduang
+  - given: Wantana
+    given_initial: W.
+    family: Klysubun
+  - given: Penphitcha
+    given_initial: P.
+    family: Amonpattaratkit
+  - given: H-thaichnok
+    given_initial: H.
+    family: Chunate
   - given: Nutth
     given_initial: N.
     family: Tuchinda
-  - given: Christopher A.
-    given_initial: C. A.
-    family: Schuh
+  - given: Adulphan
+    given_initial: A.
+    family: Pimsawat
+  - given: Sujittra
+    given_initial: S.
+    family: Daengsakul
+  - given: Pitphichaya
+    given_initial: P.
+    family: Suksangrat
+  - given: Wutthigrai
+    given_initial: W.
+    family: Sailuam
+  - given: Drusawin
+    given_initial: D.
+    family: Vongpramate
+  - given: Atipong
+    given_initial: A.
+    family: Bootchanont
+  - given: Boonrat
+    given_initial: B.
+    family: Lohwongwatana
     role: 'main corr'
   journal:
     fullname: Ceramics International
