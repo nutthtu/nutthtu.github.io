@@ -26,7 +26,9 @@ Please send your CV to Nutth.tuchinda@njit.edu and briefly describe your interes
 ## Graduate
 -----
 
-We currently have two available positions in the area of defects in materials. If you are interested, please apply through [NJIT portal](https://connect.njit.edu/apply/) and send your CV to nutth.tuchinda@njit.edu.
+We currently have two available positions in the area of defects in materials. The projects are primarily computational with possibilities of complementary lab work through lab scale fabrication such as PVD, electrodeposition and mechanical alloying.
+
+If you are interested, please apply through [NJIT portal](https://connect.njit.edu/apply/) and send your CV to nutth.tuchinda@njit.edu.
 
 General details on the PhD program can be found 
 [here](https://catalog.njit.edu/graduate/newark-college-engineering/chemical-materials-engineering/materials-science-engineering-phd/)
