@@ -1,4 +1,11 @@
 <aside class="sidebar">
+	<div class="panel radius">
+		<h3>Subscribe</h3>
+		<ul class="no-bullet">
+			<li class="icon-rss"><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
+			<li class="icon-rss"><a href="{{ site.baseurl }}/feed_julia.xml">Julia Posts Only</a></li>
+		</ul>
+	</div>
 
 	<div class="panel radius">
 		{% assign categories_url = site.baseurl | append: '/blog/category/' %}
