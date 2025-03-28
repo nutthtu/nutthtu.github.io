@@ -9,7 +9,7 @@ breadcrumbs: true
 ---
 
 Nutth is an incoming assistant professor in the [CME department at NJIT ](https://cme.njit.edu) starting Fall 2025.
-Before that, he completed his PhD under a supervision of Prof. Chris Schuh or from [Schuh Group](schuh.northwestern.edu) at MIT (2019-2023). After his PhD, he work as a postdoc in Schuh and Olson group at MIT until Summer 2025.
+Before that, he completed his PhD under a supervision of Prof. Chris Schuh or from [Schuh Group](https://schuh.northwestern.edu) at MIT (2019-2023). After his PhD, he work as a postdoc in Schuh and Olson group at MIT until Summer 2025.
 
 See his [Current research interests]({{site.url}}/research), [scientific software]({{site.url}}/software)
 and published [research articles]({{site.url}}/publications)

@@ -4,8 +4,8 @@ title: "Tutorial on TripleJunction.py"
 subheadline: "Performing triple junction identification using OVITO Python package"
 description: "TJ"
 author: nutthtu
-date: 2025-03-30
-modified: 2025-03-30
+date: 2025-03-27
+modified: 2025-03-27
 image:
     feature: false
     twitter: 
@@ -14,6 +14,8 @@ tags: [Python, TripleJunction.py, Algorithms]
 show_meta:
     info: true
 ---
+
+(To be updated)
 
 This is a tutorial on how to identify triple junctions in polycrystalline materials using OVITO modifiers [TripluJunction.py](https://github.com/nutthtu/TripleJunction.py)
 
@@ -24,15 +26,15 @@ This is a tutorial on how to identify triple junctions in polycrystalline materi
 
 ## Getting started
 
-First, we import OVITO python package which are necessary for identifying unique grains:
+First, we import OVITO python package which are necessary for identifying unique grains.
 
-```python
+{% highlight python linenos %}
 import ovito
-```
+{% endhighlight %}
 
 
 <figure class="image">
-    <img src="{{ site.url }}/images/TripleJunction.py/TJ.svg" alt="TJ" width="600px">
+    <img src="{{ site.url }}/images/logo.png" alt="TJ" width="600px">
 </figure>
 
 
