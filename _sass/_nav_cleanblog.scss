@@ -25,7 +25,7 @@
         //    color: $nav-brand-faded;
         //}
         color: #FFF;
-        background: linear-gradient(#000000, #D22630) repeat scroll 0% 0% transparent;
+        background: linear-gradient(#D22630, #D22630) repeat scroll 0% 0% transparent;
         //font-weight: 700;
         //font-size: 85%;
         //text-transform: uppercase;
@@ -44,7 +44,7 @@
         border-radius: 5px;
         top: 0px;
         letter-spacing: 0px;
-        text-shadow: 0 2px 0 #A00;
+        text-shadow: 0 2px 0 rgb(0, 0, 0);
 
         vertical-align: middle; // Align the icon vertically with the text
         display: inline-block;
@@ -78,7 +78,7 @@
 				color: $nav-brand-faded;
 			}
             color: #FFF;
-            background: linear-gradient(#B72F47, #A61E36) repeat scroll 0% 0% transparent;
+            background: linear-gradient(#D22630, #D22630) repeat scroll 0% 0% transparent;
             font-weight: 700;
             //font-size: 85%;
             //text-transform: uppercase;
@@ -93,7 +93,7 @@
             border-radius: 5px;
             top: 0px;
             letter-spacing: 0px;
-            text-shadow: 0 2px 0 #A00;
+            text-shadow: 0 2px 0 rgb(0, 0, 0);
             box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.67);
             vertical-align: middle; // Align the icon vertically with the text
             display: inline-block;
@@ -177,7 +177,7 @@
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: rgba(20, 48, 124, 0.97);
+    background-color: rgba(13, 35, 94, 0.97);
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
