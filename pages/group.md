@@ -27,8 +27,6 @@ breadcrumbs: true
 ## Graduate Students
 -----
 
-_Master, PhD, and postdoc positions are open for application!_
-
 {% for member in site.data.group.graduate_students %}
 <div class="pi-card">
   <div class="pi-info">
@@ -45,7 +43,6 @@ _Master, PhD, and postdoc positions are open for application!_
 ## Undergraduate Students
 -----
 
-_Welcome undergraduate students to join our research group! Please contact Prof. Liu to make an appointment for interview._
 
 {% for member in site.data.group.undergraduate_students %}
 <div class="pi-card">
