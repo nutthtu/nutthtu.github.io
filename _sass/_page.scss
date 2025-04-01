@@ -2,7 +2,11 @@ body {
 	margin: 0;
 	padding-top: $navbar-actual-height;
 	width: 100%;
+    background-image: url('/images/BG-trans.png');
 	background-color: $body-color;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 .breadcrumbs {

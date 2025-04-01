@@ -14,7 +14,7 @@ css: /assets/css/page.css
     Our software development efforts will be listed here including tutorials for atomistic simulations.
   </div>
   <figure class="intro-image">
-    <img src="{{ site.url }}/images/software.png" alt="">
+    <img src="{{ site.url }}/images/TJ.png" alt="">
   </figure>
 </div>
 

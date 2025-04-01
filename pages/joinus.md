@@ -21,7 +21,7 @@ We have opportunities in the research area of computational materials science wh
 2. Applications of data science, statistics or ML in materials research
 3. Alloy design framework
 
-Please send your CV to Nutth.tuchinda@njit.edu and briefly describe your interests.
+Please send your CV to nutth.tuchinda@njit.edu and briefly describe your interests.
 
 ## Graduate
 -----
