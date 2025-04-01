@@ -8,7 +8,7 @@ breadcrumbs: true
 ---
 
 
-We are recruiting!
+We are recruiting! See [current opening]({{site.url}}/opening)
 
 
 ## Undergraduate
