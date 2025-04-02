@@ -8,9 +8,6 @@ breadcrumbs: true
 ---
 
 
-We are recruiting! See [current opening]({{site.url}}/opening)
-
-
 ## Undergraduate
 -----
 
@@ -26,7 +23,7 @@ Please send your CV to nutth.tuchinda@njit.edu and briefly describe your interes
 ## Graduate
 -----
 
-We currently have two available positions in the area of defects in materials. The projects are primarily computational with possibilities of complementary lab work through lab scale fabrication such as PVD, electrodeposition and mechanical alloying.
+We currently have <b>two funded (stipend + tuition) positions</b> available in the area of defects in materials. The projects are primarily computational with possibilities of complementary lab work through lab scale fabrication such as PVD, electrodeposition and mechanical alloying.
 
 If you are interested, please apply through [NJIT portal](https://connect.njit.edu/apply/) and send your CV to nutth.tuchinda@njit.edu.
 
