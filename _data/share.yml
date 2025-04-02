@@ -1,5 +1,3 @@
-# Each link may contain one or more <title> and <link> placeholders.
-
 email:
   name: "E-mail"
   color: '#777777'

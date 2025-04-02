@@ -1,13 +1,11 @@
 ---
 permalink: /reading/
 layout: page
-title: 
+title: Recommended Resources
 description: 
 comments: false
 breadcrumbs: true
 ---
-
-## Webpages
 
 ### Thermodynamics
 

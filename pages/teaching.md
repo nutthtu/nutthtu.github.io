@@ -7,6 +7,8 @@ comments: false
 breadcrumbs: true
 ---
 
+See [the recommended reading list]({{site.url}}/reading) for extra resources
+
 {% include toc.md panel=true %}
 
 ## Materials Processing (MTEN 460, Undergraduate)
