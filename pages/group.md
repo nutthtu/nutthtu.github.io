@@ -8,6 +8,9 @@ comments: false
 breadcrumbs: true
 ---
 
+We are recruiting! See [current opening]({{site.url}}/opening)
+
+
 ## Principle Investigator
 -----
 
