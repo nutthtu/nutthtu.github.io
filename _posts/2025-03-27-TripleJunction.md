@@ -17,7 +17,7 @@ show_meta:
 
 (To be updated)
 
-This is a tutorial on how to identify triple junctions in polycrystalline materials using OVITO modifiers [TripluJunction.py](https://github.com/nutthtu/TripleJunction.py)
+This is a tutorial on how to identify triple junctions in polycrystalline materials using OVITO modifiers and [TripleJunction.py](https://github.com/nutthtu/TripleJunction.py)
 
 
 <!--more-->
@@ -32,12 +32,6 @@ First, we import OVITO python package which are necessary for identifying unique
 import ovito
 {% endhighlight %}
 
-
 <figure class="image">
     <img src="{{ site.url }}/images/logo.png" alt="TJ" width="600px">
 </figure>
-
-
-## Contribute
-
-- Contact me via email nutth.tuchinda@njit.edu
