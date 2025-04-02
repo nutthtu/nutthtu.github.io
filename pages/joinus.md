@@ -30,6 +30,8 @@ If you are interested, please apply through [NJIT portal](https://connect.njit.e
 General details on the PhD program can be found 
 [here](https://catalog.njit.edu/graduate/newark-college-engineering/chemical-materials-engineering/materials-science-engineering-phd/)
 
+We are also happy to host Master students from industry or externally-funded scholarship. Please see the [CME Master Program](https://catalog.njit.edu/graduate/newark-college-engineering/chemical-materials-engineering/materials-science-engineering-ms/) for additional details.
+
 ## Postdoc
 -----
 
