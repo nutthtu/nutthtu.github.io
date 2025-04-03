@@ -4,6 +4,7 @@
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
     margin-left: -8px;
     height: $navbar-height;
+    vertical-align: middle; // Align the icon vertically with the text
 }
 
 .navbar-custom {
@@ -55,8 +56,9 @@
 		li {
 			a {
 				text-transform: uppercase;
-				font-size: 12px;
-				font-weight: 800;
+				font-size: 16px;
+				font-weight: 600;
+                vertical-align: middle; // Align the icon vertically with the text
 				letter-spacing: 1px;
                 color: rgba(213, 224, 255, 0.97);
                 // padding: 10px;
@@ -103,7 +105,8 @@
 			li {
 				a {
                     color: rgba(213, 224, 255, 0.97);
-					padding: 10px;
+					// padding: 10px;
+                    vertical-align: middle; // Align the icon vertically with the text
 					&:hover,
 					&:focus {
 						color: $nav-faded;
@@ -156,10 +159,12 @@
   }
   .navbar-nav>li {
       float: none;
+      vertical-align: middle; // Align the icon vertically with the text
   }
   .navbar-nav>li>a {
       padding-top: 6px;
       padding-bottom: 6px;
+      vertical-align: middle; // Align the icon vertically with the text
   }
   .navbar-custom .nav li a {
     padding: 6px 10px;
