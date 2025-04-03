@@ -15,7 +15,7 @@
 	z-index: 1000;
 	//.sans-serif;
     font-family: $heading-font;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid #D22630;
 	.navbar-brand {
         font-family: $site-title-font;
         font-size: 24px;
@@ -39,7 +39,7 @@
         padding-left: 8px;
         padding-right: 8px;
         padding-bottom: 0px;
-        padding-top: 8px;
+        padding-top: 4px;
         box-sizing: border-box;
         border-radius: 5px;
         top: 0px;
@@ -48,17 +48,18 @@
 
         vertical-align: middle; // Align the icon vertically with the text
         display: inline-block;
+        
         // box-shadow: 0px 3px 4px -1px
 	}
 	.nav {
 		li {
 			a {
 				text-transform: uppercase;
-				font-size: 14px;
+				font-size: 12px;
 				font-weight: 800;
 				letter-spacing: 1px;
-                color: $nav-color;
-                padding: 20px;
+                color: rgba(213, 224, 255, 0.97);
+                // padding: 10px;
                 &:hover,
                 &:focus {
                     color: $nav-faded;
@@ -88,7 +89,7 @@
             padding-left: 8px;
             padding-right: 8px;
             padding-bottom: 0px;
-            padding-top: 12px;
+            padding-top: 4px;
             box-sizing: border-box;
             border-radius: 5px;
             top: 0px;
@@ -102,7 +103,7 @@
 			li {
 				a {
                     color: rgba(213, 224, 255, 0.97);
-					padding: 20px;
+					padding: 10px;
 					&:hover,
 					&:focus {
 						color: $nav-faded;
@@ -157,11 +158,11 @@
       float: none;
   }
   .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
   }
   .navbar-custom .nav li a {
-    padding: 10px 20px;
+    padding: 6px 10px;
   }
   .collapse.in{
       display:block!important;

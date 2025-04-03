@@ -525,8 +525,8 @@ header .entry-meta {
     #main {
         margin: 2px 2px 2px 2px;
         @media #{$medium} {
-            margin-left: 20px;
-            margin-right: 20px;
+            margin-left: auto;
+            margin-right: auto;
         }
         @media #{$large} {
             max-width: 960px;
