@@ -17,14 +17,14 @@ We currently have <b>two Ph.D. positions (fully-funded with stipend and tuition 
 
 We welcome undergrads from every department. If you are just curious about our research (even if you don't know anything about atomistic simulations or materials), do not hesitate to reach out!
 
-Please send your 1. unofficial transcript and 2. CV to nutth.tuchinda@njit.edu and briefly describe your interests.
+Please send your 1. unofficial transcript and 2. CV to <b>nutth.tuchinda@njit.edu</b> and briefly describe your interests.
 
 ## Graduate
 -----
 
 We currently have <b>two Ph.D. positions (fully-funded with stipend and tuition fees) </b> available in the area of defects in materials.
 
-If you are interested, please apply through [NJIT portal](https://connect.njit.edu/apply/) and send your CV to nutth.tuchinda@njit.edu.
+If you are interested, please apply through [NJIT portal](https://connect.njit.edu/apply/) and send your CV to <b>nutth.tuchinda@njit.edu</b>.
 
 General details on the PhD program can be found 
 [here](https://catalog.njit.edu/graduate/newark-college-engineering/chemical-materials-engineering/materials-science-engineering-phd/)
