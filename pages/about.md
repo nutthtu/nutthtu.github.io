@@ -34,7 +34,7 @@ and published [research articles]({{site.url}}/publications)
         {% if position.profiles %}
           Department profile: 
           {% for profile in position.profiles %}
-            <a href="{{ profile.url }}"> Departmental Link </a>
+            <a href="{{ profile.url }}"> Link </a>
             {% unless forloop.last %}/{% endunless %}
           {% endfor %}
         {% endif %}
