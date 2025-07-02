@@ -5,11 +5,11 @@ principle_investigator:
     bio_link: "/about/"
 
 graduate_students:
-  - name: "Could be you!"
-    image: "images/logo-tri.jpg"
-    period: "-"
-    description: "-"
-  
+  - name: "Muhtasim Haq"
+    image: "images/Muhtasim.jpg"
+    period: "2025 - Present"
+    description: "Bachelor of Science – Materials Science and Engineering, 2022, Khulna University of Engineering and Technology (KUET)"
+
 undergraduate_students:
 
   - name: "Could be you!"
