@@ -84,7 +84,7 @@ breadcrumbs: true
     <div class="title">
     <span class="title">{{ thesis.title }}</span>
     {% if thesis.fulltext %}
-        <a title="fulltext" href="{{ site.url }}/downloads/thesis/{{ thesis.fulltext }}"><i class="fa fa-file-pdf-o"></i></a>
+        <a title="fulltext" href="{{ thesis.fulltext }}"><i class="fa fa-file-pdf-o"></i></a>
     {% endif %}
     </div>
     <div class='author'>
