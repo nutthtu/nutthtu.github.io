@@ -1,5 +1,27 @@
 # Tuchinda's Publications - Meetigns, Workshops, Proceedings, Talks
 
+- title: 'Building Blocks for a Polycrystalline Defect Genome via Atomistic Multiscale Modeling'
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: main
+  source: 'Gordon Research Seminar (GRS) 2025'
+  city: 'Easton, MA'
+  fulltext:
+
+- title: 'Materials Genomic Opportunities via Universal Interatomic Potentials'
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: main
+  source: 'QuesTek Innovations LLC'
+  city: 'Evanston, IL'
+  fulltext:
+
 - title: 'Triple Junction Interstitial Solute Segregation in Nanocrystalline Alloys'
   year: 2025
   author:

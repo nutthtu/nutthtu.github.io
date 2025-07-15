@@ -36,11 +36,11 @@
     family: Schuh
     role: 'main corr'
   journal:
-    fullname: Arxiv
-    abbreviation: Arxiv
-  URL:  https://doi.org/10.48550/arXiv.2502.08017
+    fullname: Scripta Materialia
+    abbreviation: Scr. Mater.
+  URL:  https://doi.org/10.1016/j.scriptamat.2025.116682
   type: article
-  DOI: 10.48550/arXiv.2502.08017
+  DOI: 10.1016/j.scriptamat.2025.116682
   language: english
 
 - title: 'A Grain Boundary Embrittlement Genome for Substitutional Cubic Alloys'
@@ -60,11 +60,11 @@
     given_initial: C. A.
     family: Schuh
   journal:
-    fullname: Arxiv
-    abbreviation: Arxiv
-  URL:  https://doi.org/10.48550/arXiv.2502.06531
+    fullname: Applied Physics Letters
+    abbreviation: APL
+  URL:  https://doi.org/10.1063/5.0264543
   type: article
-  DOI: 10.48550/arXiv.2502.06531
+  DOI: 10.1063/5.0264543
   language: english
 
 - title: 'Grain Boundary Segregation and Embrittlement of Aluminum Binary Alloys from First Principles'
@@ -84,43 +84,18 @@
     given_initial: C. A.
     family: Schuh
   journal:
-    fullname: Arxiv
-    abbreviation: Arxiv
-  URL:  https://doi.org/10.48550/arXiv.2502.01579
+    fullname: Acta Materialia
+    abbreviation: Acta Mater.
+  URL:  https://doi.org/10.1016/j.actamat.2025.121058
   type: article
-  DOI: 10.48550/arXiv.2502.01579
+  DOI: 10.1016/j.actamat.2025.121058
   language: english
 
-- title: 'Grain Boundary Segregation and Embrittlement of Aluminum Binary Alloys from First Principles'
-  volume: 
-  issue: 
-  page: 
+- title: 'Interstitial solute segregation at triple junctions: Implications for nanomaterials and a case study of hydrogen in palladium'
+  volume: 9
+  issue: 5
+  page: 056002
   year: 2025
-  author:
-  - given: Nutth
-    given_initial: N.
-    family: Tuchinda
-    role: 'main corr'
-  - given: Gregory B.
-    given_initial: G. B.
-    family: Olson
-  - given: Christopher A.
-    given_initial: C. A.
-    family: Schuh
-  journal:
-    fullname: Arxiv
-    abbreviation: Arxiv
-  URL:  https://doi.org/10.48550/arXiv.2411.18537
-  type: article
-  DOI: 10.48550/arXiv.2411.18537
-  language: english
-
-
-- title: 'Interstitial Solute Segregation at Triple Junctions: Implications for the Hydrogen Storage Properties of Nanomaterials'
-  volume: 
-  issue: 
-  page: 
-  year: 2024
   author:
   - given: Nutth
     given_initial: N.
@@ -133,11 +108,11 @@
     family: Schuh
     role: 'main corr'
   journal:
-    fullname: Arxiv
-    abbreviation: Arxiv
-  URL:  https://doi.org/10.48550/arXiv.2411.18537
+    fullname: Physical Review Materials
+    abbreviation: PRM
+  URL:  https://doi.org/10.1103/PhysRevMaterials.9.056002
   type: article
-  DOI: 10.48550/arXiv.2411.18537
+  DOI: 10.1103/PhysRevMaterials.9.056002
   language: english
 
 - title: 'Triple junction excess energy in polycrystalline metals'
