@@ -1,3 +1,27 @@
+- title: 'Triple junction solute segregation and the stability of nanocrystalline alloys'
+  volume: 299
+  issue: 
+  page: 121429
+  year: 2025
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+    role: 'main corr'
+  - given: Yu-ning
+    given_initial: Y.
+    family: Chiu
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+  journal:
+    fullname: Acta Materialia
+    abbreviation: Acta Mater.
+  URL:  https://doi.org/10.1016/j.actamat.2025.121429
+  type: article
+  DOI: 10.1016/j.actamat.2025.121429
+  language: english
+
 - title: 'The Augmented Potential Method: Multiscale Modeling Toward a Spectral Defect Genome'
   volume: 
   issue: 
@@ -23,9 +47,9 @@
   language: english
 
 - title: 'Grain Boundary Segregation Spectra from a Generalized Machine-learning Potential'
-  volume: 
+  volume: 264
   issue: 
-  page: 
+  page: 116682
   year: 2025
   author:
   - given: Nutth
@@ -44,9 +68,9 @@
   language: english
 
 - title: 'A Grain Boundary Embrittlement Genome for Substitutional Cubic Alloys'
-  volume: 
+  volume: 126
   issue: 
-  page: 
+  page: 171602 
   year: 2025
   author:
   - given: Nutth
@@ -68,9 +92,9 @@
   language: english
 
 - title: 'Grain Boundary Segregation and Embrittlement of Aluminum Binary Alloys from First Principles'
-  volume: 
+  volume: 293
   issue: 
-  page: 
+  page: 121058
   year: 2025
   author:
   - given: Nutth
