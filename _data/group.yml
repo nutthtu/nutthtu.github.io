@@ -5,10 +5,10 @@ principle_investigator:
     bio_link: "/about/"
 
 graduate_students:
-  - name: "Muhtasim Haq"
-    image: "images/Muhtasim.jpg"
+  - name: "Md. Hasib"
+    image: "images/hasib.jpg"
     period: "2025 - Present"
-    description: "Bachelor of Science – Materials Science and Engineering, 2022, Khulna University of Engineering and Technology (KUET)"
+    description: "2025: Bachelor of Science in Mechanical Engineering from Bangladesh University of Engineering & Technology (BUET)"
 
 undergraduate_students:
 
