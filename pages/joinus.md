@@ -7,10 +7,12 @@ comments: false
 breadcrumbs: true
 ---
 
-We currently have <b>two Ph.D. positions (fully-funded with stipend and tuition fees) </b> available in the area of defects in materials. We have opportunities in the research area of computational materials science which include but not limited to:
-1. Atomistic modeling and simulation of defects in materials
-2. Applications of data science, statistics or ML in materials research
-3. Alloy design framework
+We are looking for passionate students who would like to dive into the realm of materials to explore and understand how we engineer their imperfection!
+
+We cover those, but not limited to:
+1. Theory and computation
+2. Materials genome
+3. Materials design
 
 ## Undergraduate
 -----

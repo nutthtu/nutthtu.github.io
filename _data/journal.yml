@@ -1,3 +1,27 @@
+- title: 'The Augmented Potential Method: Multiscale Modeling Toward a Spectral Defect Genome'
+  volume: 
+  issue: 
+  page: 
+  year: 2026
+  author:
+  - given: Nutth
+    given_initial: N.
+    family: Tuchinda
+  - given: Changle
+    given_initial: C.
+    family: Li
+  - given: Christopher A.
+    given_initial: C. A.
+    family: Schuh
+    role: 'main corr'
+  journal:
+    fullname: Scripta Materialia
+    abbreviation: Scrip. Mater.
+  URL:  https://doi.org/10.1016/j.scriptamat.2025.116969
+  type: article
+  DOI: 10.1016/j.scriptamat.2025.116969
+  language: english
+
 - title: 'Triple junction solute segregation and the stability of nanocrystalline alloys'
   volume: 299
   issue: 
@@ -20,30 +44,6 @@
   URL:  https://doi.org/10.1016/j.actamat.2025.121429
   type: article
   DOI: 10.1016/j.actamat.2025.121429
-  language: english
-
-- title: 'The Augmented Potential Method: Multiscale Modeling Toward a Spectral Defect Genome'
-  volume: 
-  issue: 
-  page: 
-  year: 2025
-  author:
-  - given: Nutth
-    given_initial: N.
-    family: Tuchinda
-  - given: Changle
-    given_initial: C.
-    family: Li
-  - given: Christopher A.
-    given_initial: C. A.
-    family: Schuh
-    role: 'main corr'
-  journal:
-    fullname: Arxiv
-    abbreviation: Arxiv
-  URL:  https://doi.org/10.48550/arXiv.2502.08014
-  type: article
-  DOI: 10.48550/arXiv.2502.08014
   language: english
 
 - title: 'Grain Boundary Segregation Spectra from a Generalized Machine-learning Potential'

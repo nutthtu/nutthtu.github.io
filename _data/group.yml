@@ -8,7 +8,10 @@ graduate_students:
   - name: "Md. Hasib"
     image: "images/hasib.jpg"
     period: "2025 - Present"
-    description: "2025: Bachelor of Science in Mechanical Engineering from Bangladesh University of Engineering & Technology (BUET)"
+    education: "2025: Bachelor of Science in Mechanical Engineering 
+      ,Bangladesh University of Engineering & Technology (BUET)"
+    description: |
+      As for my hobbies, I enjoy walking, hiking, teaching, and solving math problems.
 
 undergraduate_students:
 
