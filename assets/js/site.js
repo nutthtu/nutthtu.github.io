@@ -186,7 +186,7 @@ const RESEARCH_THEMES = [
   {
     slug: "alloy-design",
     title: "Alloy Design",
-    description: "System design approach in combination with ML-accelerated materials defect genome for extreme environment materials design"
+    description: "Using the system design approach via a combination of CALPHAD and ML-accelerated materials defect genome to design extreme environment materials"
   },
   {
     slug: "process-modeling-ai-ml",

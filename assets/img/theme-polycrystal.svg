@@ -6,22 +6,22 @@
     </linearGradient>
     <!-- 6 distinct grain-interior lattice orientations -->
     <pattern id="lat1" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(0)">
-      <circle cx="2" cy="2" r="1" fill="#1a2a55" opacity=".55"/>
+      <circle cx="2" cy="2" r="1.4" fill="#1a2a55" opacity=".6"/>
     </pattern>
     <pattern id="lat2" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
-      <circle cx="2" cy="2" r="1" fill="#1a2a55" opacity=".55"/>
+      <circle cx="2" cy="2" r="1.4" fill="#1a2a55" opacity=".6"/>
     </pattern>
     <pattern id="lat3" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(36)">
-      <circle cx="2" cy="2" r="1" fill="#1a2a55" opacity=".55"/>
+      <circle cx="2" cy="2" r="1.4" fill="#1a2a55" opacity=".6"/>
     </pattern>
     <pattern id="lat4" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
-      <circle cx="2" cy="2" r="1" fill="#1a2a55" opacity=".55"/>
+      <circle cx="2" cy="2" r="1.4" fill="#1a2a55" opacity=".6"/>
     </pattern>
     <pattern id="lat5" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
-      <circle cx="2" cy="2" r="1" fill="#1a2a55" opacity=".55"/>
+      <circle cx="2" cy="2" r="1.4" fill="#1a2a55" opacity=".6"/>
     </pattern>
     <pattern id="lat6" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(50)">
-      <circle cx="2" cy="2" r="1" fill="#1a2a55" opacity=".55"/>
+      <circle cx="2" cy="2" r="1.4" fill="#1a2a55" opacity=".6"/>
     </pattern>
   </defs>
   <rect width="400" height="250" fill="url(#bgp)"/>
@@ -37,6 +37,11 @@
     <path d="M 175 120 L 320 150 L 290 240 L 170 250 Z"                fill="url(#lat4)"/>
     <path d="M 30 180 L 175 120 L 170 250 L 50 260 L -20 220 Z"        fill="url(#lat5)"/>
     <path d="M 320 150 L 420 130 L 430 260 L 290 240 Z"                fill="url(#lat6)"/>
+    <!-- Corner grains filling the top-left / top-right frame (share GB edges with grains 1,2,3) -->
+    <path d="M -20 -20 L 200 -20 L 200 -10 L 90 30 L -20 50 Z"         fill="url(#lat5)"/>
+    <path d="M 200 -20 L 420 -20 L 400 30 L 280 40 L 200 -10 Z"        fill="url(#lat4)"/>
+    <!-- Left-edge wedge grain: grains 1 and 5 only met at (30,180); this fills between them -->
+    <path d="M -20 50 L 30 180 L -20 220 Z"                            fill="url(#lat3)"/>
   </g>
 
   <!-- Solute atoms segregating along grain boundaries (NJIT red) -->
@@ -69,6 +74,29 @@
     <!-- GB: (400,30) → (420,130) -->
     <circle cx="407" cy="60" r="2.4"/>
     <circle cx="413" cy="95" r="2.4"/>
+    <!-- Additional GB solute (denser decoration) -->
+    <!-- GB: (90,30) → (175,120) -->
+    <circle cx="103" cy="44"  r="2.4"/>
+    <circle cx="147" cy="90"  r="2.4"/>
+    <!-- GB: (280,40) → (175,120) -->
+    <circle cx="264" cy="52"  r="2.4"/>
+    <circle cx="210" cy="94"  r="2.4"/>
+    <!-- GB: (175,120) → (320,150) -->
+    <circle cx="190" cy="123" r="2.4"/>
+    <circle cx="268" cy="139" r="2.4"/>
+    <!-- GB: (175,120) → (170,250) -->
+    <circle cx="174" cy="140" r="2.4"/>
+    <circle cx="172" cy="185" r="2.4"/>
+    <circle cx="171" cy="231" r="2.4"/>
+    <!-- GB: (30,180) → (175,120) -->
+    <circle cx="52"  cy="171" r="2.4"/>
+    <circle cx="95"  cy="153" r="2.4"/>
+    <circle cx="143" cy="133" r="2.4"/>
+    <!-- GB: (320,150) → (290,240) -->
+    <circle cx="307" cy="195" r="2.4"/>
+    <!-- GB: (90,30) → (200,-10) -->
+    <circle cx="118" cy="20"  r="2.4"/>
+    <circle cx="150" cy="8"   r="2.4"/>
   </g>
 
   <!-- Intra-grain point defects -->
