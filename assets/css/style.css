@@ -163,8 +163,11 @@ section + section { border-top: 1px solid var(--c-line); }
   max-width: 820px; margin: 0 auto; text-align: justify; text-justify: inter-word;
 }
 
+/* ===== Home page: wider layout so the animation figure shows larger ===== */
+.home .container { max-width: 1280px; }
+
 /* ===== Home overview figure (animation) ===== */
-.home-figure { margin: 2rem auto 0; max-width: 680px; text-align: center; }
+.home-figure { margin: 2rem auto 0; max-width: 900px; text-align: center; }
 .home-figure img, .home-figure video { width: 100%; border-radius: var(--radius); border: 1px solid var(--c-line); display: block; }
 .home-figure figcaption { font-size: .82rem; color: var(--c-muted); margin-top: .5rem; line-height: 1.45; }
 
