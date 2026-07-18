@@ -1,22 +1,27 @@
 [
   {
     "title": "Semiconductor Defect Genome for Rad-hard Electronics",
+    "image": "assets/img/project-radhard.png",
     "themes": ["polycrystalline-ensembles", "materials-defect-genome"]
   },
   {
     "title": "Triple Junction Engineering for Extreme Environment Materials",
+    "image": "assets/img/project-triple-junction.gif",
     "themes": ["polycrystalline-ensembles", "materials-defect-genome", "alloy-design"]
   },
   {
     "title": "Entropy-driven Defect Engineering and Genome for Metals and Alloys",
+    "image": "assets/img/project-entropy.gif",
     "themes": ["polycrystalline-ensembles", "materials-defect-genome"]
   },
   {
     "title": "Hydrogen Trapping in Metals and Alloys",
+    "image": "assets/img/project-hydrogen.png",
     "themes": ["polycrystalline-ensembles"]
   },
   {
     "title": "Transport of Particulate Materials in Pharmaceutical Processes",
+    "image": "assets/img/project-transport.gif",
     "themes": ["process-modeling-ai-ml"]
   }
 ]
