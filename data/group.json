@@ -85,6 +85,12 @@
   ],
   "alumni": [
     {
+      "name": "Avinoam Eiselt",
+      "role": "High School Summer Intern, Science Initiative Program",
+      "image": "assets/img/avinoam.jpg",
+      "bio": "Avinoam Eiselt is a rising senior at The Frisch School with interests in mechanical engineering and materials science. In his free time he enjoys building engineering projects, storm chasing, and rock climbing."
+    },
+    {
       "name": "Could be you!",
       "period": "—",
       "image": "assets/img/logo.png",
