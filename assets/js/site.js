@@ -176,17 +176,17 @@ const RESEARCH_THEMES = [
   {
     slug: "polycrystalline-ensembles",
     title: "Fundamentals of Defects in Polycrystalline Materials",
-    description: "Defects, grain boundaries, and triple-junction networks — and how they govern polycrystalline behavior."
+    description: "We study fundamentals of defects including point defects, grain boundaries and triple junction networks to understand how they govern both localized and macroscopic ensemble properties."
   },
   {
     slug: "materials-defect-genome",
     title: "Materials Defect Genome",
-    description: "Periodic table maps of defect chemistry, building the genome that links structure-property relationships in crystalline materials"
+    description: "We apply ML-accelerated atomistic simulation to streamline high-throughput defect genome development for design of alloys and polycrystalline materials."
   },
   {
     slug: "alloy-design",
     title: "Alloy Design",
-    description: "Using the system design approach via a combination of CALPHAD and ML-accelerated materials defect genome to design extreme environment materials"
+    description: "We apply the system design approach to combine classical CALPHAD with the materials defect genomes we develop to design broad classes of polycrystalline materials such as metals and alloys."
   },
   {
     slug: "process-modeling-ai-ml",
