@@ -50,7 +50,7 @@
         </ul>
       </div>
       <div>
-        <h4>Find us</h4>
+        <h4>More about us</h4>
         <ul>
           <li><a href="https://github.com/Imperfection-Engineering-Group" target="_blank" rel="noopener">GitHub</a></li>
           <li><a href="https://scholar.google.com/citations?user=QiIAZvwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></li>

@@ -39,29 +39,17 @@ Drop the image in `news_images/`, then add a JSON entry to `data/news.json`:
 
 The home page shows the **3 most recent** automatically; `pages/news.html` shows them all, sorted by date.
 
-### Publications (auto from Google Scholar — preferred)
-Find your Scholar user ID (the `user=…` in your profile URL), then:
+### Publications (from BibTeX)
+Export your library from Zotero (or any reference manager) as BibTeX, save it as `data/publications.bib`, then run:
 
 ```bash
-pip install scholarly bibtexparser
-python scripts/update_publications.py --scholar-id YOUR_ID
+pip install bibtexparser
+python scripts/update_publications.py
+# or point at another file:
+python scripts/update_publications.py --bib Tuchinda.bib
 ```
 
-This rewrites `data/publications.json` with everything from Scholar (titles, authors, venue, year, citation counts).
-
-### Publications (BibTeX fallback)
-Edit `data/publications.bib` and run:
-
-```bash
-python scripts/update_publications.py --bib data/publications.bib
-```
-
-### Both (BibTeX as base, Scholar to enrich with citation counts)
-```bash
-python scripts/update_publications.py --bib data/publications.bib --scholar-id YOUR_ID --merge
-```
-
-The publications page has live **search** (title/author/venue) and **year filter**, sorted newest-first.
+This rewrites `data/publications.json`. Each title links to `https://doi.org/<doi>`; entries without a DOI fall back to their `url`, and entries with neither are shown unlinked (the script prints a warning). The page lists everything newest-first, grouped by year.
 
 ### Group members
 Edit `data/group.json` — `principal_investigator`, `postdocs`, `graduate_students`, `undergraduate_students`, `alumni`. Photos go in `assets/img/` and the path is `assets/img/<file>`.

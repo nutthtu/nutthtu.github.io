@@ -28,6 +28,11 @@
     "category": "Kinetics",
     "items": [
       {
+        "title": "Materials Kinetics: Transport and Rate Phenomena (Mauro)",
+        "url": "https://www.sciencedirect.com/book/monograph/9780128239070/materials-kinetics",
+        "note": ""
+      },
+      {
         "title": "Phase Transformations in Metals and Alloys (Porter & Easterling)",
         "url": "https://www.google.com/books/edition/Phase_Transformations_in_Metals_and_Allo/eYR5Re5tZisC?hl=en",
         "note": ""
@@ -100,6 +105,16 @@
       {
         "title": "Introduction to Physical Metallurgy (Avner)",
         "url": "https://www.google.com/books/edition/Introduction_to_Physical_Metallurgy/ZsBTAAAAMAAJ?hl=en",
+        "note": ""
+      },
+      {
+        "title": "Imperfections in Crystalline Solids (Cai & Nix)",
+        "url": "https://doi.org/10.1017/CBO9781316389508",
+        "note": ""
+      },
+      {
+        "title": "Crystals, Defects and Microstructures: Modeling Across Scales (Phillips)",
+        "url": "https://doi.org/10.1017/CBO9780511606236",
         "note": ""
       }
     ]

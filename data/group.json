@@ -6,11 +6,26 @@
       "image": "assets/img/nutth.jpg",
       "bio": "Nutth is an assistant professor in the CME department at NJIT (starting Fall 2025). He completed his PhD with Prof. Chris Schuh at MIT (2019–2023), then worked as a postdoc in the Schuh and Olson groups at MIT before joining NJIT.",
       "links": [
-        { "text": "NJIT Profile", "url": "https://people.njit.edu/profile/nt385#about" },
-        { "text": "Google Scholar", "url": "https://scholar.google.com/citations?user=QiIAZvwAAAAJ&hl=en" },
-        { "text": "ORCID", "url": "https://orcid.org/0000-0003-4544-5970" },
-        { "text": "CV (PDF)", "url": "downloads/CV.pdf" },
-        { "text": "Email", "url": "mailto:nt385@njit.edu" }
+        {
+          "text": "NJIT Profile",
+          "url": "https://people.njit.edu/profile/nt385#about"
+        },
+        {
+          "text": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=QiIAZvwAAAAJ&hl=en"
+        },
+        {
+          "text": "ORCID",
+          "url": "https://orcid.org/0000-0003-4544-5970"
+        },
+        {
+          "text": "CV (PDF)",
+          "url": "downloads/CV.pdf"
+        },
+        {
+          "text": "Email",
+          "url": "mailto:nt385@njit.edu"
+        }
       ]
     }
   ],
@@ -18,11 +33,14 @@
   "graduate_students": [
     {
       "name": "Md. Hasib",
-      "period": "Spring 2025 – Present",
+      "period": "Spring 2026 – Present",
       "image": "assets/img/hasib.jpg",
       "bio": "BS in Mechanical Engineering (2025), Bangladesh University of Engineering & Technology (BUET). Enjoys walking, hiking, teaching, and solving math problems.",
       "links": [
-        { "text": "Email", "url": "mailto:mh844@njit.edu" }
+        {
+          "text": "Email",
+          "url": "mailto:mh844@njit.edu"
+        }
       ]
     },
     {
@@ -31,48 +49,25 @@
       "image": "assets/img/fahmid.jpg",
       "bio": "Fahmid Faiyaj Chowdhury completed his B.S. in Mechanical Engineering from Bangladesh University of Engineering and Technology (BUET). He has taken an interest in the world of materials science and how his skills in computational tools and coding can be used for advancing materials research. In his free time, he likes to immerse himself in playing video games.",
       "links": [
-        { "text": "Email", "url": "mailto:fc334@njit.edu" }
+        {
+          "text": "Email",
+          "url": "mailto:fc334@njit.edu"
+        }
       ]
+    },
+    {
+      "name": "Abul Hassan Fatemi",
+      "period": "Fall 2026 – Present",
+      "image": "assets/img/abul.jpg",
+      "bio": "Abul is pursuing an MS in Artificial Intelligence at NJIT. He completed his B.Tech in Electronics and Instrumentation at SGSITS Indore, India. He enjoys working with large language models and is currently exploring agentic AI. Outside of research he likes swimming, cricket, watching movies, and travelling with friends."
     }
   ],
   "undergraduate_students": [
     {
-      "name": "Chisom Ezeanya",
-      "image": "assets/img/logo.png",
-      "links": [
-        { "text": "Email", "url": "mailto:cce25@njit.edu" }
-      ]
-    },
-    {
-      "name": "David Onyegbule",
-      "image": "assets/img/david.jpg",
-      "bio": "David Onyegbule is an undergraduate student at New Jersey Institute of Technology majoring in Chemical Engineering. With a growing background in clean and renewable energy, he is driven to explore this academic path through research.",
-      "links": [
-        { "text": "Email", "url": "mailto:dco22@njit.edu" }
-      ]
-    },
-    {
-      "name": "Pranav Sridhar",
-      "image": "assets/img/logo.png",
-      "links": [
-        { "text": "Email", "url": "mailto:ps2335@njit.edu" }
-      ]
-    },
-    {
-      "name": "Thomas Stephen Amburan",
-      "image": "assets/img/thomas.png",
-      "bio": "Thomas Stephen Amburan is a second-year undergraduate student studying Materials Science and Engineering at the University at Buffalo. He enjoys watching basketball and playing sports in his free time.",
-      "links": [
-        { "text": "Email", "url": "mailto:thomasamburan2@gmail.com" }
-      ]
-    },
-    {
-      "name": "Tucker Erbeck",
-      "image": "assets/img/tucker.jpg",
-      "bio": "Tucker is a visiting student who recently completed a B.S. in Chemical Engineering from the University of Southern California. He enjoys running, swimming, and working on 3D printing projects.",
-      "links": [
-        { "text": "Email", "url": "mailto:terbeck@usc.edu" }
-      ]
+      "name": "Anna Julia Nunes Araujo",
+      "period": "Fall 2026 – Present",
+      "image": "assets/img/anna.jpg",
+      "bio": "Anna Julia Nunes Araujo is an undergraduate student at the New Jersey Institute of Technology majoring in Chemical Engineering. She is excited about the field of materials science and eager to advance her skills through active research. Outside of academia, she likes to immerse herself in reading and painting."
     }
   ],
   "high_school_students": [
@@ -85,16 +80,43 @@
   ],
   "alumni": [
     {
+      "name": "Chisom Ezeanya",
+      "image": "assets/img/logo.png",
+      "period": "Until Summer 2026",
+      "role": "Undergraduate Researcher"
+    },
+    {
+      "name": "David Onyegbule",
+      "image": "assets/img/david.jpg",
+      "bio": "David Onyegbule is an undergraduate student at New Jersey Institute of Technology majoring in Chemical Engineering. With a growing background in clean and renewable energy, he is driven to explore this academic path through research.",
+      "period": "Until Summer 2026",
+      "role": "Undergraduate Researcher"
+    },
+    {
+      "name": "Pranav Sridhar",
+      "image": "assets/img/logo.png",
+      "period": "Until Summer 2026",
+      "role": "Undergraduate Researcher"
+    },
+    {
+      "name": "Thomas Stephen Amburan",
+      "image": "assets/img/thomas.png",
+      "bio": "Thomas Stephen Amburan is a second-year undergraduate student studying Materials Science and Engineering at the University at Buffalo. He enjoys watching basketball and playing sports in his free time.",
+      "period": "Until Summer 2026",
+      "role": "Undergraduate Researcher"
+    },
+    {
+      "name": "Tucker Erbeck",
+      "image": "assets/img/tucker.jpg",
+      "bio": "Tucker is a visiting student who recently completed a B.S. in Chemical Engineering from the University of Southern California. He enjoys running, swimming, and working on 3D printing projects.",
+      "period": "Until Summer 2026",
+      "role": "Undergraduate Researcher"
+    },
+    {
       "name": "Avinoam Eiselt",
       "role": "High School Summer Intern, Science Initiative Program",
       "image": "assets/img/avinoam.jpg",
       "bio": "Avinoam Eiselt is a rising senior at The Frisch School with interests in mechanical engineering and materials science. In his free time he enjoys building engineering projects, storm chasing, and rock climbing."
-    },
-    {
-      "name": "Could be you!",
-      "period": "—",
-      "image": "assets/img/logo.png",
-      "bio": "Group alumni will be listed here as members move on to their next roles."
     }
   ]
 }

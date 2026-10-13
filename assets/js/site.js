@@ -313,58 +313,30 @@ async function renderPublications() {
   try {
     const data = await fetchJSON("data/publications.json");
     const pubs = (data.publications || []).slice().sort((a, b) => (b.year || 0) - (a.year || 0));
-    const meta = data.meta || {};
+    if (!pubs.length) { root.innerHTML = '<p class="pub-empty">No publications yet.</p>'; return; }
 
-    const searchInput = document.getElementById("pub-search");
-    const yearSelect = document.getElementById("pub-year");
+    // group by year
+    const byYear = {};
+    pubs.forEach((p) => { (byYear[p.year || "Other"] ||= []).push(p); });
+    const yearKeys = Object.keys(byYear).sort((a, b) => (b - a) || a.localeCompare(b));
 
-    // Build year filter options
-    const years = [...new Set(pubs.map((p) => p.year).filter(Boolean))].sort((a, b) => b - a);
-    if (yearSelect) {
-      yearSelect.innerHTML = `<option value="">All years</option>` + years.map((y) => `<option value="${y}">${y}</option>`).join("");
-    }
-
-    function render(filter = "", yearFilter = "") {
-      const q = filter.trim().toLowerCase();
-      const filtered = pubs.filter((p) => {
-        if (yearFilter && String(p.year) !== String(yearFilter)) return false;
-        if (!q) return true;
-        const hay = [p.title, p.authors, p.venue, (p.tags || []).join(" ")].join(" ").toLowerCase();
-        return hay.includes(q);
-      });
-      if (!filtered.length) { root.innerHTML = '<p class="pub-empty">No publications match your search.</p>'; return; }
-
-      // group by year
-      const byYear = {};
-      filtered.forEach((p) => { (byYear[p.year || "Other"] ||= []).push(p); });
-      const yearKeys = Object.keys(byYear).sort((a, b) => (b - a) || a.localeCompare(b));
-
-      root.innerHTML = yearKeys.map((y) => `
-        <h3 class="pub-year">${escapeHTML(y)}</h3>
-        <ul class="pub-list">
-          ${byYear[y].map((p) => `
-            <li class="pub-item">
-              <div class="pub-title">${escapeHTML(p.title)}</div>
-              <div class="pub-authors">${highlightAuthor(p.authors)}</div>
-              <div class="pub-venue">${escapeHTML(p.venue || "")}${p.year ? ` (${p.year})` : ""}</div>
-              <div class="pub-links">
-                ${p.doi ? `<a href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener">DOI</a>` : ""}
-                ${p.url ? `<a href="${escapeHTML(p.url)}" target="_blank" rel="noopener">Link</a>` : ""}
-                ${p.pdf ? `<a href="${escapeHTML(p.pdf)}" target="_blank" rel="noopener">PDF</a>` : ""}
-                ${p.citations ? `<a href="${escapeHTML(p.scholar_url || "#")}" target="_blank" rel="noopener">Cited by ${p.citations}</a>` : ""}
-              </div>
-            </li>`).join("")}
-        </ul>`).join("");
-    }
-
-    render();
-    if (searchInput) searchInput.addEventListener("input", () => render(searchInput.value, yearSelect ? yearSelect.value : ""));
-    if (yearSelect) yearSelect.addEventListener("change", () => render(searchInput ? searchInput.value : "", yearSelect.value));
-
-    const lastUpdated = document.getElementById("pub-updated");
-    if (lastUpdated && meta.updated) {
-      lastUpdated.textContent = `Last updated: ${formatDate(meta.updated)} · Source: ${meta.source || "manual"}`;
-    }
+    root.innerHTML = yearKeys.map((y) => `
+      <h3 class="pub-year">${escapeHTML(y)}</h3>
+      <ul class="pub-list">
+        ${byYear[y].map((p) => {
+          const href = p.doi ? `https://doi.org/${p.doi}` : (p.url || "");
+          const title = href
+            ? `<a href="${escapeHTML(href)}" target="_blank" rel="noopener">${escapeHTML(p.title)}</a>`
+            : escapeHTML(p.title);
+          return `
+          <li class="pub-item">
+            <div class="pub-title">${title}</div>
+            <div class="pub-authors">${highlightAuthor(p.authors)}</div>
+            <div class="pub-venue">${escapeHTML(p.venue || "")}${p.year ? ` (${p.year})` : ""}</div>
+            ${p.pdf ? `<div class="pub-links"><a href="${escapeHTML(p.pdf)}" target="_blank" rel="noopener">PDF</a></div>` : ""}
+          </li>`;
+        }).join("")}
+      </ul>`).join("");
   } catch (e) {
     root.innerHTML = `<p class="pub-empty">Could not load publications (${escapeHTML(e.message)}).</p>`;
   }

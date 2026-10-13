@@ -1,24 +1,21 @@
 #!/usr/bin/env python3
 """
-Update data/publications.json from either Google Scholar (preferred) or a BibTeX file.
+Update data/publications.json from a BibTeX file (e.g. a Zotero export).
 
 Usage
 -----
-  # Google Scholar (preferred). Provide the Scholar user ID (the bit after `user=` in your
-  # profile URL, e.g. https://scholar.google.com/citations?user=ABCdEFgHIJK):
-  python scripts/update_publications.py --scholar-id ABCdEFgHIJK
+  # Default: reads data/publications.bib
+  python scripts/update_publications.py
 
-  # BibTeX fallback:
-  python scripts/update_publications.py --bib data/publications.bib
+  # Or point at any .bib file:
+  python scripts/update_publications.py --bib Tuchinda.bib
 
-  # Use both: BibTeX as the base, Scholar to enrich with citation counts:
-  python scripts/update_publications.py --bib data/publications.bib --scholar-id ABCdEFgHIJK --merge
-
-The output is `data/publications.json` rendered by the website.
+Each publication title on the website links to https://doi.org/<doi> when the entry
+has a `doi` field, and falls back to the entry's `url` otherwise.
 
 Dependencies (install once)
 ---------------------------
-  pip install scholarly bibtexparser
+  pip install bibtexparser
 """
 
 from __future__ import annotations
@@ -27,7 +24,6 @@ import argparse
 import json
 import re
 import sys
-import time
 from pathlib import Path
 from datetime import date
 
@@ -35,47 +31,10 @@ from datetime import date
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 OUT = ROOT / "data" / "publications.json"
+DEFAULT_BIB = ROOT / "data" / "publications.bib"
 
-
-# ----------------- Google Scholar -----------------
-
-def fetch_from_scholar(scholar_id: str, max_pubs: int | None = None) -> list[dict]:
-    try:
-        from scholarly import scholarly
-    except ImportError:
-        sys.exit("scholarly not installed.  pip install scholarly")
-
-    print(f"[scholar] looking up user {scholar_id} …")
-    author = scholarly.search_author_id(scholar_id)
-    author = scholarly.fill(author, sections=["publications"])
-    pubs = author.get("publications", [])
-    if max_pubs:
-        pubs = pubs[:max_pubs]
-
-    out: list[dict] = []
-    for i, p in enumerate(pubs, 1):
-        print(f"[scholar] {i}/{len(pubs)}: filling …")
-        try:
-            filled = scholarly.fill(p)
-        except Exception as e:
-            print(f"  ! could not fill: {e}")
-            continue
-        bib = filled.get("bib", {})
-        title = bib.get("title", "").strip()
-        if not title:
-            continue
-        out.append({
-            "title": title,
-            "authors": bib.get("author", "").replace(" and ", ", "),
-            "venue": bib.get("journal") or bib.get("conference") or bib.get("venue") or bib.get("publisher", ""),
-            "year": _int_or_none(bib.get("pub_year")),
-            "url": filled.get("pub_url") or filled.get("eprint_url") or "",
-            "doi": "",  # Scholar rarely exposes DOI; left blank
-            "citations": filled.get("num_citations", 0),
-            "scholar_url": _abs_scholar(filled.get("citedby_url", "")),
-        })
-        time.sleep(0.4)  # be nice to Scholar
-    return out
+MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 
 
 # ----------------- BibTeX -----------------
@@ -83,39 +42,64 @@ def fetch_from_scholar(scholar_id: str, max_pubs: int | None = None) -> list[dic
 def fetch_from_bibtex(bib_path: Path) -> list[dict]:
     try:
         import bibtexparser
+        from bibtexparser.bparser import BibTexParser
+        from bibtexparser.customization import convert_to_unicode
     except ImportError:
         sys.exit("bibtexparser not installed.  pip install bibtexparser")
 
-    text = bib_path.read_text(encoding="utf-8")
-    db = bibtexparser.loads(text)
+    parser = BibTexParser(common_strings=True)
+    parser.customization = convert_to_unicode
+    db = bibtexparser.loads(bib_path.read_text(encoding="utf-8"), parser=parser)
+
     out: list[dict] = []
     for e in db.entries:
-        title = _strip_braces(e.get("title", "")).strip()
+        title = _clean(e.get("title", ""))
         if not title:
             continue
+        doi = _clean_doi(e.get("doi", ""))
+        url = _clean(e.get("url", ""))
+        if re.match(r"https?://", doi):  # a non-DOI link (e.g. a Handle) stored in the doi field
+            url, doi = url or doi, ""
         out.append({
             "title": title,
-            "authors": _strip_braces(e.get("author", "")).replace(" and ", ", "),
-            "venue": _strip_braces(e.get("journal", "") or e.get("booktitle", "") or e.get("publisher", "")),
+            "authors": _format_authors(e.get("author", "")),
+            "venue": _clean(e.get("journal", "") or e.get("booktitle", "") or e.get("publisher", "")),
             "year": _int_or_none(e.get("year", "")),
-            "url": e.get("url", "") or e.get("eprint", ""),
-            "doi": e.get("doi", ""),
-            "citations": None,
-            "scholar_url": "",
+            "month": _month(e.get("month", "")),
+            "doi": doi,
+            "url": f"https://doi.org/{doi}" if doi else url,
         })
     return out
 
 
-def _strip_braces(s: str) -> str:
-    return re.sub(r"[{}]", "", s).strip()
+def _clean(s: str) -> str:
+    s = re.sub(r"[{}]", "", s)
+    s = s.replace("\\&", "&").replace("\\%", "%")
+    return re.sub(r"\s+", " ", s).strip()
 
 
-def _abs_scholar(u: str) -> str:
-    if not u:
-        return ""
-    if u.startswith("/"):
-        return "https://scholar.google.com" + u
-    return u
+def _clean_doi(s: str) -> str:
+    s = _clean(s)
+    return re.sub(r"^(https?://(dx\.)?doi\.org/|doi:)", "", s, flags=re.I)
+
+
+def _format_authors(s: str) -> str:
+    """'Tuchinda, Nutth and Schuh, Christopher A.' -> 'Nutth Tuchinda, Christopher A. Schuh'"""
+    names = []
+    for a in re.split(r"\s+and\s+", _clean(s)):
+        if "," in a:
+            last, first = [x.strip() for x in a.split(",", 1)]
+            a = f"{first} {last}".strip()
+        if a:
+            names.append(a)
+    return ", ".join(names)
+
+
+def _month(s) -> int | None:
+    s = str(s).strip().lower()
+    if s.isdigit():
+        return int(s)
+    return MONTHS.get(s[:3])
 
 
 def _int_or_none(s):
@@ -123,61 +107,33 @@ def _int_or_none(s):
     return int(m.group()) if m else None
 
 
-# ----------------- Merge -----------------
-
-def merge_lists(base: list[dict], extra: list[dict]) -> list[dict]:
-    """Merge `extra` into `base`, keyed on normalized title.
-    Fields from `extra` override only when `base` value is empty/None."""
-    def key(p): return re.sub(r"\W+", "", (p.get("title") or "").lower())
-    idx = {key(p): p for p in base}
-    for p in extra:
-        k = key(p)
-        if k in idx:
-            for field, v in p.items():
-                if v and not idx[k].get(field):
-                    idx[k][field] = v
-        else:
-            base.append(p)
-            idx[k] = p
-    return base
-
-
 # ----------------- CLI -----------------
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--scholar-id", help="Google Scholar user ID")
-    ap.add_argument("--bib", type=Path, help="Path to a BibTeX file")
-    ap.add_argument("--merge", action="store_true", help="Use bibtex as base, scholar to enrich (citations etc.)")
-    ap.add_argument("--max", type=int, help="Cap number of Scholar entries fetched (for quick tests)")
+    ap.add_argument("--bib", type=Path, default=DEFAULT_BIB,
+                    help=f"Path to a BibTeX file (default: {DEFAULT_BIB.relative_to(ROOT)})")
     args = ap.parse_args()
 
-    if not args.scholar_id and not args.bib:
-        ap.error("Provide --scholar-id or --bib (or both).")
+    if not args.bib.exists():
+        ap.error(f"BibTeX file not found: {args.bib}")
 
-    if args.merge and args.bib and args.scholar_id:
-        pubs = fetch_from_bibtex(args.bib)
-        scholar_pubs = fetch_from_scholar(args.scholar_id, max_pubs=args.max)
-        pubs = merge_lists(pubs, scholar_pubs)
-        source = "bibtex+scholar"
-    elif args.scholar_id:
-        pubs = fetch_from_scholar(args.scholar_id, max_pubs=args.max)
-        source = "google-scholar"
-    else:
-        pubs = fetch_from_bibtex(args.bib)
-        source = "bibtex"
+    pubs = fetch_from_bibtex(args.bib)
+    pubs.sort(key=lambda p: (p.get("year") or 0, p.get("month") or 0), reverse=True)
 
-    pubs.sort(key=lambda p: (p.get("year") or 0), reverse=True)
+    missing = [p["title"] for p in pubs if not p["url"]]
+    for t in missing:
+        print(f"  ! no DOI or URL (title will not be linked): {t}")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "meta": {
             "updated": date.today().isoformat(),
-            "source": source,
+            "source": "bibtex",
             "count": len(pubs),
         },
         "publications": pubs,
-    }, indent=2, ensure_ascii=False), encoding="utf-8")
+    }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"[done] wrote {len(pubs)} publications → {OUT.relative_to(ROOT)}")
 
 
