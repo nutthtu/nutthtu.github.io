@@ -136,6 +136,13 @@
       "role": "High School Summer Intern, Science Initiative Program",
       "image": "assets/img/avinoam.jpg",
       "bio": "Avinoam Eiselt is a rising senior at The Frisch School with interests in mechanical engineering and materials science. In his free time he enjoys building engineering projects, storm chasing, and rock climbing."
+    },
+    {
+      "name": "Maria Kalitseva",
+      "level": "HS",
+      "role": "High School Summer Intern, Partners in Science, Liberty Science Center",
+      "image": "assets/img/maria.jpg",
+      "bio": "Maria Kalitseva is a junior at Millburn High School, interested in chemical engineering and materials science. Outside of school, Maria enjoys skiing, drawing, baking, and taekwondo."
     }
   ]
 }
