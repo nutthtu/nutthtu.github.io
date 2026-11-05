@@ -34,7 +34,7 @@
     <div class="footer-grid">
       <div>
         <h4>Imperfection Engineering Group</h4>
-        <p class="muted"><a href="https://cme.njit.edu/" target="_blank" rel="noopener">Department of Chemical &amp; Materials Engineering</a><br>
+        <p class="muted"><a href="https://cme.njit.edu/" target="_blank" rel="noopener">Otto H. York Department of Chemical and Materials Engineering</a><br>
         <a href="https://www.njit.edu/" target="_blank" rel="noopener">New Jersey Institute of Technology</a><br>
         Otto H. York Center · 138 Warren St · Newark, NJ</p>
         <p class="muted">Email: <a href="mailto:nt385@njit.edu">nt385@njit.edu</a></p>
