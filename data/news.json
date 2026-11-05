@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-10-13",
+    "title": "Our group has been selected for the DOE Early Career Research Program award!",
+    "description": "We have been selected for a U.S. Department of Energy Office of Science Early Career Research Program award.",
+    "image": "assets/img/logo.png",
+    "url": "https://science.osti.gov/early-career"
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Welcome Abul (MS) to the group!",
+    "description": "Abul Hassan Fatemi joins the group as an MS student in Artificial Intelligence.",
+    "image": "assets/img/abul.jpg",
+    "url": ""
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Welcome Fahmid Faiyaj Chowdhury (PhD) to our group!",
+    "description": "Fahmid Faiyaj Chowdhury joins the group as a PhD student starting Fall 2026.",
+    "image": "assets/img/fahmid.jpg",
+    "url": ""
+  },
+  {
+    "date": "2026-01-01",
+    "title": "Welcome Md. Hasib (PhD) to our group!",
+    "description": "Md. Hasib joins the group as a PhD student starting Spring 2026.",
+    "image": "news_images/hasib.jpg",
+    "url": ""
+  },
+  {
+    "date": "2025-12-09",
+    "title": "Nutth gave a seminar talk on GB entropy at Rutgers",
+    "description": "Invited departmental seminar on grain-boundary entropy and its role in segregation thermodynamics.",
+    "image": "assets/img/logo.png",
+    "url": ""
+  },
+  {
+    "date": "2025-12-01",
+    "title": "Nutth presented at MRS Fall 2025 on the Augmented Potential Method",
+    "description": "Talk at the Materials Research Society Fall Meeting on accelerated atomistic simulation of segregated grain boundaries.",
+    "image": "assets/img/logo.png",
+    "url": ""
+  },
+  {
+    "date": "2025-09-01",
+    "title": "Nutth has joined NJIT as a faculty in the Department of Chemical and Materials Engineering!",
+    "description": "Nutth starts as an Assistant Professor in the Otto H. York Department of Chemical and Materials Engineering at NJIT.",
+    "image": "assets/img/njit_logo.png",
+    "url": ""
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "updated": "2026-10-13",
+    "source": "bibtex",
+    "count": 18
+  },
+  "publications": [
+    {
+      "title": "Why does Re anti-segregate from the grain boundaries in Ni?",
+      "authors": "Changle Li, Sourabh Bhagwan Kadambi, Boopathy Kombaiah, Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2026,
+      "month": 12,
+      "doi": "10.1016/j.actamat.2026.122742",
+      "url": "https://doi.org/10.1016/j.actamat.2026.122742"
+    },
+    {
+      "title": "A spectral-model analysis of grain boundary segregation in Cu-Ni alloys: roles of enthalpy, entropy, and statistical coupling",
+      "authors": "Chang-Hee Cho, Nutth Tuchinda, Jacob Mack, Srikanth Patala, Jaroslav Čapek, Angelina Strakošová, Pavel Lejček, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2026,
+      "month": 11,
+      "doi": "10.1016/j.actamat.2026.122704",
+      "url": "https://doi.org/10.1016/j.actamat.2026.122704"
+    },
+    {
+      "title": "Overview: The spectral model of grain boundary segregation",
+      "authors": "Thomas P. Matson, Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2026,
+      "month": 3,
+      "doi": "10.1016/j.actamat.2026.122109",
+      "url": "https://doi.org/10.1016/j.actamat.2026.122109"
+    },
+    {
+      "title": "The augmented potential method: Multiscale modeling toward a spectral defect genome",
+      "authors": "Nutth Tuchinda, Changle Li, Christopher A. Schuh",
+      "venue": "Scripta Materialia",
+      "year": 2026,
+      "month": 1,
+      "doi": "10.1016/j.scriptamat.2025.116969",
+      "url": "https://doi.org/10.1016/j.scriptamat.2025.116969"
+    },
+    {
+      "title": "Triple junction solute segregation and the stability of nanocrystalline alloys",
+      "authors": "Nutth Tuchinda, Yu-ning Chiu, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2025,
+      "month": 10,
+      "doi": "10.1016/j.actamat.2025.121429",
+      "url": "https://doi.org/10.1016/j.actamat.2025.121429"
+    },
+    {
+      "title": "Grain boundary segregation spectra from a generalized machine-learning potential",
+      "authors": "Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Scripta Materialia",
+      "year": 2025,
+      "month": 7,
+      "doi": "10.1016/j.scriptamat.2025.116682",
+      "url": "https://doi.org/10.1016/j.scriptamat.2025.116682"
+    },
+    {
+      "title": "Interstitial solute segregation at triple junctions: Implications for nanomaterials and a case study of hydrogen in palladium",
+      "authors": "Nutth Tuchinda, Malik Wagih, Christopher A. Schuh",
+      "venue": "Physical Review Materials",
+      "year": 2025,
+      "month": 5,
+      "doi": "10.1103/PhysRevMaterials.9.056002",
+      "url": "https://doi.org/10.1103/PhysRevMaterials.9.056002"
+    },
+    {
+      "title": "Grain Boundary Segregation and Embrittlement of Aluminum Binary Alloys from First Principles",
+      "authors": "Nutth Tuchinda, Gregory B. Olson, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2025,
+      "month": 4,
+      "doi": "10.1016/j.actamat.2025.121058",
+      "url": "https://doi.org/10.1016/j.actamat.2025.121058"
+    },
+    {
+      "title": "A grain boundary embrittlement genome for substitutional cubic alloys",
+      "authors": "Nutth Tuchinda, Gregory B. Olson, Christopher A. Schuh",
+      "venue": "Applied Physics Letters",
+      "year": 2025,
+      "month": 4,
+      "doi": "10.1063/5.0264543",
+      "url": "https://doi.org/10.1063/5.0264543"
+    },
+    {
+      "title": "Grain boundary segregation for the Fe-P system: Insights from atomistic modeling and Bayesian inference",
+      "authors": "Alexander Reichmann, Nutth Tuchinda, Christoph Dösinger, Daniel Scheiber, Vsevolod I. Razumovskiy, Oleg Peil, Thomas P. Matson, Christopher A. Schuh, Lorenz Romaner",
+      "venue": "Acta Materialia",
+      "year": 2024,
+      "month": 10,
+      "doi": "10.1016/j.actamat.2024.120215",
+      "url": "https://doi.org/10.1016/j.actamat.2024.120215"
+    },
+    {
+      "title": "Triple junction excess energy in polycrystalline metals",
+      "authors": "Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2024,
+      "month": 10,
+      "doi": "10.1016/j.actamat.2024.120274",
+      "url": "https://doi.org/10.1016/j.actamat.2024.120274"
+    },
+    {
+      "title": "Computed entropy spectra for grain boundary segregation in polycrystals",
+      "authors": "Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "month": 4,
+      "doi": "10.1038/s41524-024-01260-3",
+      "url": "https://doi.org/10.1038/s41524-024-01260-3"
+    },
+    {
+      "title": "Polycrystalline Grain Boundary Solute Segregation at Finite Sizes and Temperatures",
+      "authors": "Nutth Tuchinda",
+      "venue": "Massachusetts Institute of Technology",
+      "year": 2023,
+      "month": 9,
+      "doi": "",
+      "url": "https://hdl.handle.net/1721.1/152714"
+    },
+    {
+      "title": "Triple junction solute segregation in Al-based polycrystals",
+      "authors": "Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Physical Review Materials",
+      "year": 2023,
+      "month": 2,
+      "doi": "10.1103/PhysRevMaterials.7.023601",
+      "url": "https://doi.org/10.1103/PhysRevMaterials.7.023601"
+    },
+    {
+      "title": "The vibrational entropy spectra of grain boundary segregation in polycrystals",
+      "authors": "Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2023,
+      "month": 2,
+      "doi": "10.1016/j.actamat.2022.118630",
+      "url": "https://doi.org/10.1016/j.actamat.2022.118630"
+    },
+    {
+      "title": "Grain size dependencies of intergranular solute segregation in nanocrystalline materials",
+      "authors": "Nutth Tuchinda, Christopher A. Schuh",
+      "venue": "Acta Materialia",
+      "year": 2022,
+      "month": 3,
+      "doi": "10.1016/j.actamat.2021.117614",
+      "url": "https://doi.org/10.1016/j.actamat.2021.117614"
+    },
+    {
+      "title": "Sintering behavior and mechanical properties of hydroxyapatite ceramics prepared from Nile Tilapia (Oreochromis niloticus) bone and commercial powder for biomedical applications",
+      "authors": "Atchara Khamkongkaeo, Thanachai Boonchuduang, Wantana Klysubun, Penphitcha Amonpattaratkit, H.-thaichnok Chunate, Nutth Tuchinda, Adulphan Pimsawat, Sujittra Daengsakul, Pitphichaya Suksangrat, Wutthigrai Sailuam",
+      "venue": "Ceramics International",
+      "year": 2021,
+      "month": 12,
+      "doi": "",
+      "url": ""
+    },
+    {
+      "title": "Effect of phosphate compound on physical and mechanical properties of SiO2 ceramic",
+      "authors": "Atchara Khamkongkaeo, Atipong Bootchanont, Wantana Klysubun, Penphitcha Amonpattaratkit, Thanachai Boonchuduang, Nutth Tuchinda, Thanawat Phetrattanarangsi, Noppadon Nuntawong, Surasak Kuimalee, Boonrat Lohwongwatana",
+      "venue": "Ceramics International",
+      "year": 2019,
+      "month": 1,
+      "doi": "10.1016/j.ceramint.2018.07.253",
+      "url": "https://doi.org/10.1016/j.ceramint.2018.07.253"
+    }
+  ]
+}
