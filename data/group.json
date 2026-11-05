@@ -29,7 +29,16 @@
       ]
     }
   ],
-  "postdocs": [],
+  "postdocs": [
+    {
+      "name": "Gabriel Alkuino",
+      "level": "Postdoc",
+      "period": "Starting in Nov 2026",
+      "image": "assets/img/gabriel.jpg",
+      "bio": "Gabriel is a postdoctoral researcher at NJIT/CIMSEPP, co-advised with Prof. Rajesh Davé. He works on modeling and simulation of pharmaceutical powders. He received his BS and MS in physics from the University of the Philippines Diliman and his PhD in physics from Syracuse University, where he worked with Prof. Teng Zhang on computational mechanics of magneto-active soft materials. Outside of research, he enjoys walking aimlessly, thrifting, cooking dishes from around the world, and collecting out-of-print textbooks he sometimes reads.",
+      "links": []
+    }
+  ],
   "graduate_students": [
     {
       "name": "Md. Hasib",
