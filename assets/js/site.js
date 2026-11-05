@@ -190,7 +190,7 @@ const RESEARCH_THEMES = [
   },
   {
     slug: "alloy-design",
-    title: "Alloy Design",
+    title: "Computational Materials Design",
     description: "We apply the system design approach to combine classical CALPHAD with the materials defect genomes we develop to design broad classes of polycrystalline materials such as metals and alloys."
   },
   {
