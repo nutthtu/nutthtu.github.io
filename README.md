@@ -37,7 +37,7 @@ Drop the image in `news_images/`, then add a JSON entry to `data/news.json`:
 }
 ```
 
-The home page lists the **8 most recent** as a compact text list (date + title); `pages/news.html` shows them all, sorted by date.
+The home page lists the **15 most recent** as a compact text list (date + title); `pages/news.html` shows them all, sorted by date.
 
 ### Publications (from BibTeX)
 Export your library from Zotero (or any reference manager) as BibTeX, save it as `data/publications.bib`, then run:

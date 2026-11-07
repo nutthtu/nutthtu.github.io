@@ -195,8 +195,8 @@ const RESEARCH_THEMES = [
   },
   {
     slug: "process-modeling-ai-ml",
-    title: "Modeling, Simulations and AI/ML of Engineering Processes",
-    description: ""
+    title: "Modeling and Simulation of Materials Engineering Processes",
+    description: "We apply and develop AI/ML accelerated methods for materials engineering processes such as granular/particulate materials in pharmaceutical processes."
   }
 ];
 

@@ -146,6 +146,8 @@ section + section { border-top: 1px solid var(--c-line); }
 .grid { display: grid; gap: 1.25rem; }
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.grid-2x2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 700px) { .grid-2x2 { grid-template-columns: 1fr; } }
 
 .card {
   background: #fff; border: 1px solid var(--c-line); border-radius: var(--radius);
@@ -154,7 +156,7 @@ section + section { border-top: 1px solid var(--c-line); }
 }
 .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
 .card-img { aspect-ratio: 16/10; background: var(--c-bg-alt); overflow: hidden; }
-.card-img img { width: 100%; height: 100%; object-fit: cover; }
+.card-img img, .card-img video { width: 100%; height: 100%; object-fit: cover; display: block; }
 .card-body { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; gap: .4rem; flex: 1; }
 .card-date { font-size: .78rem; color: var(--c-muted); letter-spacing: .04em; text-transform: uppercase; }
 .card-title { font-family: var(--f-serif); font-size: 1.1rem; margin: 0; color: var(--c-ink); }
